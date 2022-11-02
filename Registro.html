@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewpornav-textt" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+  
+  <script src="https://kit.fontawesome.com/d90d25306a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/register.css">
+  <title>DaftBurger</title>
+  </head>
+  
+  
+
+  <!--inicio navbar-->
+
+  <nav class="navbar navbar-expand-lg text-decoration-none">
+    <div class="container-fluid container-1">
+      <div class="navbar-collapse" id="navbarNavDropdown">
+        <ul class="nav justify-content-center">
+         <li class="nav-item">
+            <a class="Logo" href="index.html"><span class="onefont">Daft</span>Burger</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-text" aria-current="page" href="#">¿Quienes Somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text" href="#">Productos/Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text" href="#">Ubicación Local (Via GPS)</a>
+          </li>
+        </ul>
+      </div>
+
+          <!-- registro  -->
+
+          
+          <li class=" d-flex justify-content-end">
+            <a class="nav-text text-decoration-none p-2" href="index.html" role="button" aria-expanded="false">Volver Al Inicio</a></li>
+          <!-- fin registro  -->
+
+            <!-- Login and Dropdown-->
+
+          <li class="navbar d-flex justify-content-end ">
+            <a class="nav-text dropdown-toggle text-decoration-none  " href="#" id="navbarDropdownMenuLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Inicio Sesion
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+              <form id="formLogin" class="form">
+                <label class="firts-label">Inicio Sesion</label> 
+                <input class="input_first" name="username" id="username" type="text" placeholder="Usuario" pattern="^[a-z,A-Z,0-9,_]{6,15}$" data-valid-min="6" title="Enter your username" required="required">
+                <input class="input_first" name="password" id="password" type="password" placeholder="Contraseña" title="Enter your password" required="required">
+                <br>
+                <button type="button" id="btnLogin" class="btn-outline-dark">Iniciar Sesion</button>
+              </form>
+              <p class="contraseña-olvidada"><a href="#">¿Olvido Su Contraseña?, Click Aqui</a></p>
+            </ul>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </nav> 
+
+  <!--final navbar-->
+
+
+  <!-- Inicio registro -->
+
+    <form class="form-registro">
+      <label class="label-2">
+        <p class="label-txt">INGRESE SU CORREO ELECTRONICO:</p>
+        <input type="email" class="input" placeholder="Ejemplo:texto@gmail.com" pattern="(?![_.-])((?![_.-][_.-])[a-zA-Z\d_.-]){0,63}[a-zA-Z\d]@((?!-)((?!--)[a-zA-Z\d-]){0,63}[a-zA-Z\d]\.){1,2}([a-zA-Z]{2,14}\.)?[a-zA-Z]{2,14}" data-valid-min="4" required="required">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+      </label>
+      <label>
+        <p class="label-txt">INGRESE SU NOMBRE Y APELLIDO:</p>
+        <input type="text" class="input" placeholder="">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+      </label>
+      <label>
+        <p class="label-txt">INGRESE UNA CONTRASEÑA:</p>
+        <input type="text" class="input">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+      </label>
+      <button type="submit">Registrar</button>
+    </form>
+
+
+
+   <!-- Inicio registro -->
+
+
+
+  
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script type="js/bootstrap.bundle.js"></script> 
+
+  </body>
+</html>
+
